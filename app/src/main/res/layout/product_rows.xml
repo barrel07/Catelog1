@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="120dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:src="@drawable/downloadpro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </ImageView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/rowproduct_name"
+                android:textColor="#BA3535"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iphone 15"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/rowproduct_discription"
+                android:layout_height="wrap_content"
+                android:text="waterproof 10/10 condition with 6month warranty"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/rowproductprice"
+                android:textColor="#BA3535"
+                android:layout_height="wrap_content"
+                android:text="230000 only"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

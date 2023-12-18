@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/down"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Dailogue Box"
+            android:textSize="50dp"
+            android:textColor="#EFE6E6"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:src="@drawable/prod"
+                android:onClick="addcataogriesicon"
+                android:layout_width="250dp"
+                android:layout_height="150dp">
+            </ImageView>
+
+            <TextView
+
+                android:textSize="20dp"
+                android:onClick="addcategoriestitle"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#EFE6E6"
+                android:text="add cataogries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:src="@drawable/showcateg"
+                android:layout_width="150dp"
+                android:onClick="showcataogriesicon"
+                android:layout_height="150dp">
+            </ImageView>
+
+            <TextView
+
+                android:textSize="20dp"
+                android:gravity="center"
+                android:onClick="showcataogriestitle"
+                android:text="show cataogries"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textColor="#EFE6E6"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:src="@drawable/product"
+                android:layout_width="250dp"
+
+                android:onClick="addproducticonicon"
+                android:layout_height="150dp">
+            </ImageView>
+
+            <TextView
+
+                android:textSize="20dp"
+                android:gravity="center"
+                android:onClick="addproducttitlt"
+                android:text="add products"
+                android:textColor="#EFE6E6"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/showproduct"
+                android:layout_width="250dp"
+                android:onClick="showproducticon"
+                android:layout_height="150dp">
+            </ImageView>
+
+            <TextView
+
+                android:textSize="20dp"
+                android:gravity="center"
+                android:onClick="showproducttitle"
+                android:text="show products"
+                android:textColor="#EFE6E6"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/down"
+    android:gravity="center"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:textColor="#F3EBEB"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        app:helperText="Required"
+        app:counterEnabled="true"
+        app:helperTextEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:id="@+id/Signup_username1"
+            android:textSize="20dp"
+            android:maxLength="20"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:layout_height="wrap_content"
+            android:hint="Enter user name" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:helperTextEnabled="true"
+        app:counterEnabled="true"
+        app:helperText="Required"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_pass"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:helperTextEnabled="true"
+        app:counterEnabled="true"
+        app:helperText="Required"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cnfirmpass_text"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/Signupbtn"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:backgroundTint="#F3EBEB"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up" />
+
+
+
+</LinearLayout>
